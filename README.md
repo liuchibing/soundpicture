@@ -51,7 +51,7 @@ import soundpicture
 # this module use global variables to store config.
 # if you want to use your custom config, use this function.
 # DO NOT MODIFY global variables in this module BY HAND.
-soundpicture.set_config(window_width=1024, framerate=48000)
+soundpicture.set_config(window_width=1024, framerate=48000, invert_color=True)
 
 # this function will do all the things needed.
 samples = soundpicture.generate("example.jpg", "example.wav")
