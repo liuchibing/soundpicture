@@ -7,7 +7,7 @@ tool requires numpy, scipy and pillow installed.
 
 ```bash
 # use pip3 if linux.
-pip install numpy scipy pillow
+$ pip install numpy scipy pillow
 ```
 
 ## Command-line usage
