@@ -92,7 +92,7 @@ def generate(input_file, output_file=None):
     return samples
 
 def _main():
-    parser = argparse.ArgumentParser(prog="soundpicture.py", description="Convert a picture to a piece of audio, whose spectrum is the picture. This tool requires numpy, scipy a", epilog='Copyright 2019 Liu Chibing.')
+    parser = argparse.ArgumentParser(prog="soundpicture.py", description="Convert a picture to a piece of audio, whose spectrum is the picture. This tool requires numpy, scipy and pillow installed.", epilog='Copyright 2019 Liu Chibing.')
     parser.add_argument('input_file', help='path to a picture.')
     parser.add_argument('output_file', help='path to the output. Must be a .wav file.')
     parser.add_argument('-i', '--invert-color', action='store_true', help='invert color (recommended for light picture).')

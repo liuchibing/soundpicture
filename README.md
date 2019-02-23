@@ -1,6 +1,7 @@
 # Soundpicture.py
 
-Convert a picture to a piece of audio, whose spectrum is the picture.
+Convert a picture to a piece of audio, whose spectrum is the picture. This
+tool requires numpy, scipy and pillow installed.
 
 ## Command-line usage
 
@@ -9,7 +10,8 @@ $ ./soundpicture.py --help
 usage: soundpicture.py [-h] [-i] [-w WINDOW_WIDTH] [-r FRAMERATE] [-v]
                        input_file output_file
 
-Convert a picture to a piece of audio, whose spectrum is the picture.
+Convert a picture to a piece of audio, whose spectrum is the picture. This
+tool requires numpy, scipy and pillow installed.
 
 positional arguments:
   input_file            path to a picture.
