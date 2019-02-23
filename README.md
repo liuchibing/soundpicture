@@ -1,4 +1,4 @@
-# soundpicture
+# Soundpicture.py
 
 Convert a picture to a piece of audio, whose spectrum is the picture.
 
