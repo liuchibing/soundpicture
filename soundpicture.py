@@ -96,9 +96,9 @@ def _main():
     parser.add_argument('input_file', help='path to a picture.')
     parser.add_argument('output_file', help='path to the output. Must be a .wav file.')
     parser.add_argument('-i', '--invert-color', action='store_true', help='invert color (recommended for light picture).')
-    parser.add_argument('-w', '--window-width', type=int, help='the width of window when generating spectrum.')
-    parser.add_argument('-r', '--framerate', type=int, help='framerate of the output.')
-    parser.add_argument('-v', '--verbose', action='store_true', help='enable verbose output.')
+    parser.add_argument('-w', '--window-width', type=int, help='the width of window when generating spectrum. 2048 by default.')
+    parser.add_argument('-r', '--framerate', type=int, help='framerate of the output. 48000 by default.')
+    parser.add_argument('-v', '--verbose', action='store_true', help='enable verbose cli output.')
 
     opt = parser.parse_args()
 

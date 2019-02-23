@@ -3,6 +3,13 @@
 Convert a picture to a piece of audio, whose spectrum is the picture. This
 tool requires numpy, scipy and pillow installed.
 
+## Setup
+
+```
+# use pip3 if linux.
+pip install numpy scipy pillow
+```
+
 ## Command-line usage
 
 ```
@@ -21,10 +28,16 @@ optional arguments:
   -h, --help            show this help message and exit
   -i, --invert-color    invert color (recommended for light picture).
   -w WINDOW_WIDTH, --window-width WINDOW_WIDTH
-                        the width of window when generating spectrum.
+                        the width of window when generating spectrum. 2048 by
+                        default.
   -r FRAMERATE, --framerate FRAMERATE
-                        framerate of the output.
-  -v, --verbose         enable verbose output.
+                        framerate of the output. 48000 by default.
+  -v, --verbose         enable verbose cli output.
 
 Copyright 2019 Liu Chibing.
+```
+
+For example:
+```
+$ ./soundpicture.py example.jpg example.wav
 ```
