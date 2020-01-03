@@ -42,7 +42,7 @@ For example:
 $ ./soundpicture.py example.jpg example.wav
 ```
 
-# Usage as a module
+## Usage as a module
 Example:
 
 ```python3
